@@ -1,0 +1,12 @@
+@startuml
+
+
+!include dist/aws/common.puml
+!include dist/aws/Storage/AmazonS3/AmazonS3.puml
+
+AMAZONS3(s3_internal)
+AMAZONS3(s3_partner,"Vendor's S3")
+
+s3_internal <-- s3_partner
+
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+
+!include dist/aws/common.puml
+!include dist/aws/Storage/AmazonS3/AmazonS3.puml
+!include dist/aws/Storage/AmazonS3/bucket/bucket.puml
+
+
+AMAZONS3(s3) {
+    BUCKET(site,www.insecurity.co)
+    BUCKET(logs,logs.insecurity.co)
+}
+
+site .r.> logs : events
+
+@enduml
