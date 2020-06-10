@@ -1,6 +1,6 @@
 @startuml
 
-!include ./style-presets.iuml
+!include style-presets.iuml
 
 ' Color Definition
 ' Choose the style you want by applying them here.
