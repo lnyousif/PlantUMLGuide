@@ -1,16 +1,17 @@
 @startuml
 !pragma revision 1
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
 
-!include dist/C4/C4_Container.puml
+!includeurl gitRootUMLStandards/dist/C4/C4_Container.puml
 
-!include dist/azure/AzureCommon.puml
-!include dist/azure/AzureC4Integration.puml
-!include dist/azure/Compute/AzureFunction.puml
-!include dist/azure/Analytics/AzureStreamAnalytics.puml
-!include dist/azure/Analytics/AzureEventHub.puml
-!include dist/azure/Databases/AzureCosmosDb.puml
-!include dist/azure/Storage/AzureBlobStorage.puml
-!include dist/azure/InternetOfThings/AzureIoTHub.puml
+!includeurl gitRootUMLStandards/dist/azure/AzureCommon.puml
+!includeurl gitRootUMLStandards/dist/azure/AzureC4Integration.puml
+!includeurl gitRootUMLStandards/dist/azure/Compute/AzureFunction.puml
+!includeurl gitRootUMLStandards/dist/azure/Analytics/AzureStreamAnalytics.puml
+!includeurl gitRootUMLStandards/dist/azure/Analytics/AzureEventHub.puml
+!includeurl gitRootUMLStandards/dist/azure/Databases/AzureCosmosDb.puml
+!includeurl gitRootUMLStandards/dist/azure/Storage/AzureBlobStorage.puml
+!includeurl gitRootUMLStandards/dist/azure/InternetOfThings/AzureIoTHub.puml
 
 LAYOUT_LEFT_RIGHT
 

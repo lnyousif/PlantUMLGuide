@@ -1,10 +1,11 @@
 @startuml Hello World
 !pragma revision 1
 
-!define dist/azure https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
-!include dist/azure/AzureCommon.puml
-!include dist/azure/Databases/all.puml
-!include dist/azure/Compute/AzureFunction.puml
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
+
+!includeurl gitRootUMLStandards/dist/azure/AzureCommon.puml
+!includeurl gitRootUMLStandards/dist/azure/Databases/all.puml
+!includeurl gitRootUMLStandards/dist/azure/Compute/AzureFunction.puml
 
 actor "Person" as personAlias
 AzureFunction(functionAlias, "Label", "Technology", "Optional Description")

@@ -1,10 +1,11 @@
 @startuml Raw usage - Sprites
 !pragma revision 1
 
-!define dist/azure https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
-!include dist/azure/AzureRaw.puml
-!include dist/azure/Databases/AzureCosmosDb.puml
-!include dist/azure/Compute/AzureFunction.puml
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
+
+!includeurl gitRootUMLStandards/dist/azure/AzureRaw.puml
+!includeurl gitRootUMLStandards/dist/azure/Databases/AzureCosmosDb.puml
+!includeurl gitRootUMLStandards/dist/azure/Compute/AzureFunction.puml
 
 
 component "<color:red><$AzureFunction></color>" as myFunction

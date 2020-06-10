@@ -1,8 +1,9 @@
 @startuml
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
 
-!include dist/aws/common.puml
-!include dist/aws/Storage/AmazonS3/AmazonS3.puml
-!include dist/aws/Storage/AmazonS3/AmazonS3_LARGE.puml
+!includeurl gitRootUMLStandards/dist/aws/common.puml
+!includeurl gitRootUMLStandards/dist/aws/Storage/AmazonS3/AmazonS3.puml
+!includeurl gitRootUMLStandards/dist/aws/Storage/AmazonS3/AmazonS3_LARGE.puml
 
 skinparam nodeBackgroundColor White
 skinparam storage<<**AmazonS3**>> {

@@ -1,18 +1,19 @@
 @startuml
 !pragma revision 1
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
 
-!include dist/C4/C4_Container.puml
+!includeurl gitRootUMLStandards/dist/C4/C4_Container.puml
 
-!include dist/azure/AzureCommon.puml
-!include dist/azure/AzureC4Integration.puml
-!include dist/azure/Databases/AzureRedisCache.puml
-!include dist/azure/Databases/AzureCosmosDb.puml
-!include dist/azure/Databases/AzureSqlDatabase.puml
-!include dist/azure/Web/AzureWebApp.puml
-!include dist/azure/Web/AzureCDN.puml
-!include dist/azure/Web/AzureSearch.puml
-!include dist/azure/Storage/AzureBlobStorage.puml
-!include dist/azure/Storage/AzureQueueStorage.puml
+!includeurl gitRootUMLStandards/dist/azure/AzureCommon.puml
+!includeurl gitRootUMLStandards/dist/azure/AzureC4Integration.puml
+!includeurl gitRootUMLStandards/dist/azure/Databases/AzureRedisCache.puml
+!includeurl gitRootUMLStandards/dist/azure/Databases/AzureCosmosDb.puml
+!includeurl gitRootUMLStandards/dist/azure/Databases/AzureSqlDatabase.puml
+!includeurl gitRootUMLStandards/dist/azure/Web/AzureWebApp.puml
+!includeurl gitRootUMLStandards/dist/azure/Web/AzureCDN.puml
+!includeurl gitRootUMLStandards/dist/azure/Web/AzureSearch.puml
+!includeurl gitRootUMLStandards/dist/azure/Storage/AzureBlobStorage.puml
+!includeurl gitRootUMLStandards/dist/azure/Storage/AzureQueueStorage.puml
 
 LAYOUT_WITH_LEGEND()
 

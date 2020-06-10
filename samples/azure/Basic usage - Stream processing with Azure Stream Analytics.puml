@@ -1,10 +1,12 @@
 @startuml Basic usage - Stream processing with Azure Stream Analytics
 !pragma revision 2
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
 
-!include dist/azure/AzureCommon.puml
-!include dist/azure/Analytics/AzureEventHub.puml
-!include dist/azure/Analytics/AzureStreamAnalytics.puml
-!include dist/azure/Databases/AzureCosmosDb.puml
+
+!includeurl gitRootUMLStandards/dist/azure/AzureCommon.puml
+!includeurl gitRootUMLStandards/dist/azure/Analytics/AzureEventHub.puml
+!includeurl gitRootUMLStandards/dist/azure/Analytics/AzureStreamAnalytics.puml
+!includeurl gitRootUMLStandards/dist/azure/Databases/AzureCosmosDb.puml
 
 left to right direction
 

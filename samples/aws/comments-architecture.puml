@@ -1,18 +1,19 @@
 @startuml
 
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
 
-!include dist/aws/common.puml
-!include dist/aws/ApplicationServices/AmazonAPIGateway/AmazonAPIGateway.puml
-!include dist/aws/Compute/AWSLambda/AWSLambda.puml
-!include dist/aws/Compute/AWSLambda/LambdaFunction/LambdaFunction.puml
-!include dist/aws/Database/AmazonDynamoDB/AmazonDynamoDB.puml
-!include dist/aws/Database/AmazonDynamoDB/table/table.puml
-!include dist/aws/General/AWScloud/AWScloud.puml
-!include dist/aws/General/client/client.puml
-!include dist/aws/General/user/user.puml
-!include dist/aws/SDKs/JavaScript/JavaScript.puml
-!include dist/aws/Storage/AmazonS3/AmazonS3.puml
-!include dist/aws/Storage/AmazonS3/bucket/bucket.puml
+!includeurl gitRootUMLStandards/dist/aws/common.puml
+!includeurl gitRootUMLStandards/dist/aws/ApplicationServices/AmazonAPIGateway/AmazonAPIGateway.puml
+!includeurl gitRootUMLStandards/dist/aws/Compute/AWSLambda/AWSLambda.puml
+!includeurl gitRootUMLStandards/dist/aws/Compute/AWSLambda/LambdaFunction/LambdaFunction.puml
+!includeurl gitRootUMLStandards/dist/aws/Database/AmazonDynamoDB/AmazonDynamoDB.puml
+!includeurl gitRootUMLStandards/dist/aws/Database/AmazonDynamoDB/table/table.puml
+!includeurl gitRootUMLStandards/dist/aws/General/AWScloud/AWScloud.puml
+!includeurl gitRootUMLStandards/dist/aws/General/client/client.puml
+!includeurl gitRootUMLStandards/dist/aws/General/user/user.puml
+!includeurl gitRootUMLStandards/dist/aws/SDKs/JavaScript/JavaScript.puml
+!includeurl gitRootUMLStandards/dist/aws/Storage/AmazonS3/AmazonS3.puml
+!includeurl gitRootUMLStandards/dist/aws/Storage/AmazonS3/bucket/bucket.puml
 
 
 skinparam componentArrowColor Black
