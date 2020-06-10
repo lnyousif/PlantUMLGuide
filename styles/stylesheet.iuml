@@ -1,6 +1,6 @@
 @startuml
-
-!include style-presets.iuml
+!define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
+!includeurl gitRootUMLStandards/styles/style-presets.iuml
 
 ' Color Definition
 ' Choose the style you want by applying them here.
