@@ -1,5 +1,5 @@
 !define gitRootUMLStandards https://raw.githubusercontent.com/lnyousif/PlantUMLGuide/master
-!includeur gitRootUMLStandards/dist/C4/C4_Context.puml
+!includeurl gitRootUMLStandards/dist/C4/C4_Context.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Context.puml
 
