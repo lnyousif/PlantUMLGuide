@@ -18,7 +18,7 @@ skinparam {
     ' Global Options
     DPI 300
     Shadowing false
-    DefaultFontName Open Sans
+    DefaultFontName Sans-serif
     DefaultMonospacedFontName Fira Code
     DefaultFontColor STYLE_FGC
 
@@ -131,7 +131,7 @@ skinparam {
     roundcorner 8
     Monochrome false
 
-    NoteFontName Open Sans
+    NoteFontName Sans-serif
     NoteFontStyle Italic
     'NoteBackgroundColor STYLE_BGC
 
